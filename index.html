@@ -1,13 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello</h1>
-</body>
+<html>
+    <head>
+        <title>Walkover Assessment</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Final Assessment - Gravish Purohit</h1>
+        <div class="body">
+            <div class="box-1">
+                <div class="rectangle">
+                </div>
+                <div class="rectangle">
+                </div>
+            </div>
+            <div class="box-2">
+                <div class="rectangle">
+                    <p>If you use the comma operator at a high level, it increases the file size of the final CSS.
+                         This can result in making the code really hard to perform overriding of rules.
+                        Hence SCSS allows to write better inline documentation.</p>
+                </div>
+                <div class="rectangle">
+                    <p>
+                        We can compress several lines of code in SASS syntax into much less number of lines of SCSS. 
+                        In SCSS, the standard lines can also be compressed when I’m doing something complicated and can be expanded again for reference.
+                    </p>
+                </div>
+            </div>
+            <div class="box-3">
+                <div class="plus-sign">
+                    <div class="square">
+                    
+                    </div>
+                    
+                    <div class="square">
+                
+                    </div>
+                
+                </div>
+                <div class="plus-sign">
+                
+                    <div class="square">
+                
+                    </div>
+                
+                    <div class="square">
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="scroll-to" class="scroll-up" title="Go to top">Go to Top</button>
+        <script>
+            var mybutton = document.getElementById("scroll-to");
+            
+
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+    </body>
 </html>
